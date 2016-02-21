@@ -1,0 +1,27 @@
+@import url("normalize.css");
+
+body,html{
+	background: #EEE;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	text-align: center;
+}
+img{
+	max-width: 100%;
+}
+#cabecera, #contenido{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+}
+#contenido{
+	background-color: white;
+	width: 80%;
+}
+#insertar{
+	color: #292623;
+	font-size: 1.5em;
+}
+#insertar:hover{
+	color: #EC673A;
+}
